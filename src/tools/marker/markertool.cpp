@@ -88,9 +88,3 @@ void MarkerTool::pressed(CaptureContext& context)
 {
     Q_UNUSED(context)
 }
-
-void MarkerTool::drawDropShadow(QPainter& painter, const QPixmap& pixmap)
-{
-    Q_UNUSED(painter)
-    Q_UNUSED(pixmap)
-}

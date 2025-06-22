@@ -206,9 +206,3 @@ void PixelateTool::pressed(CaptureContext& context)
 {
     Q_UNUSED(context)
 }
-
-void PixelateTool::drawDropShadow(QPainter& painter, const QPixmap& pixmap)
-{
-    Q_UNUSED(painter)
-    Q_UNUSED(pixmap)
-}

@@ -26,7 +26,4 @@ public slots:
     void drawStart(const CaptureContext& context) override;
     void onColorChanged(const QColor& c) override;
     void onSizeChanged(int size) override;
-
-private:
-    void drawDropShadow(QPainter& painter, const QPixmap& pixmap) override;
 };

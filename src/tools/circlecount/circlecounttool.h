@@ -28,7 +28,6 @@ public:
 protected:
     CaptureTool::Type type() const override;
     void copyParams(const CircleCountTool* from, CircleCountTool* to);
-    void drawDropShadow(QPainter& painter, const QPixmap& pixmap) override;
 
 public slots:
     void drawStart(const CaptureContext& context) override;

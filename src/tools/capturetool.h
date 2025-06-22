@@ -212,7 +212,6 @@ protected:
         painter.drawRect(rect);
         painter.setPen(orig_pen);
     }
-    virtual void drawDropShadow(QPainter& painter, const QPixmap& pixmap) = 0;
 
     QPixmap renderShapeWithShadow(QSize pixmapSize)
     {

@@ -39,7 +39,6 @@ private:
 protected:
     void copyParams(const AbstractTwoPointTool* from, AbstractTwoPointTool* to);
     void setPadding(int padding) { m_padding = padding; };
-    void drawDropShadow(QPainter& painter, const QPixmap& pixmap) override;
 
 private:
     // class members
